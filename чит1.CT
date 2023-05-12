@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="42">
+  <CheatEntries/>
+  <CheatCodes>
+    <CodeEntry>
+      <Description>супер чит 1</Description>
+      <AddressString>GameAssembly.dll+11F88AE</AddressString>
+      <Before>
+        <Byte>FF</Byte>
+        <Byte>84</Byte>
+        <Byte>C0</Byte>
+        <Byte>74</Byte>
+        <Byte>49</Byte>
+      </Before>
+      <Actual>
+        <Byte>FF</Byte>
+        <Byte>47</Byte>
+        <Byte>30</Byte>
+      </Actual>
+      <After>
+        <Byte>45</Byte>
+        <Byte>33</Byte>
+        <Byte>C0</Byte>
+        <Byte>48</Byte>
+        <Byte>8B</Byte>
+      </After>
+    </CodeEntry>
+  </CheatCodes>
+  <UserdefinedSymbols/>
+</CheatTable>
